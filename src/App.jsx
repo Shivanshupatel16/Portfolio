@@ -21,6 +21,11 @@ import ContactSection from "./Contact";
 import Navbar from "./Navbar";
 import Loader from "./Loader";
 import MobileSidebar from "./MobileSidebar";
+import Particles from "@tsparticles/react";
+// import { loadFull } from "@tsparticles/engine";
+import { loadFull } from 'tsparticles';
+
+
 
 function App() {
   const sidebarItems = [
@@ -290,7 +295,7 @@ function App() {
               </div>
 
               <div className="flex-1 order-1 lg:order-2 space-y-8 lg:ml-6 xl:ml-10 mt-6 md:p-4 ">
-                {sidebarItems.map((item) => (
+              {sidebarItems.map((item) => (
                   <section
                     key={item.name}
                     ref={(el) => (sectionRefs.current[item.name] = el)}
@@ -303,17 +308,14 @@ function App() {
                     {item.name === "SKILLS" && <SkillsSection />}
                     {item.name === "EDUCATION" && <EducationSection />}
                     {item.name === "CONTACT" && (
-                      <ContactSection state={state} />
+                      <ContactSection
+                        handleSubmit={handleSubmit}
+                        state={state}
+                      />
                     )}
                   </section>
                 ))}
               </div>
-              {/* <button
-                className="md:hidden fixed bottom-4 left-4 z-50 bg-[#1E1F21] p-4 rounded-full"
-                onClick={handleLowerLeftSidebarToggle}
-              >
-                {lowerLeftSidebarOpen ? "Close" : "Open"} Lower Sidebar
-              </button> */}
             </div>
           </div>
         </div>
