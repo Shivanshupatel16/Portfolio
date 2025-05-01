@@ -22,7 +22,6 @@ import Navbar from "./Navbar";
 import Loader from "./Loader";
 import MobileSidebar from "./MobileSidebar";
 import Particles from "@tsparticles/react";
-// import { loadFull } from "@tsparticles/engine";
 import { loadFull } from 'tsparticles';
 
 
