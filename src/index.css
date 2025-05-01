@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes bounceFast {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .animate-bounceFast {
+    animation: bounceFast 0.8s ease-in-out infinite; 
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-100vh) translateX(0);
+    }
+    100% {
+      transform: translateY(100vh) translateX(30px);
+    }
+  }
+  
+  .animate-fall {
+    animation: fall linear infinite;
+  }
+  
+  
