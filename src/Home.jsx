@@ -50,7 +50,7 @@ const HomeSection = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/coa1.pdf"
+            href="/Resume.pdf"
             target="_blank"
             className="bg-[#1E1F21] border border-b-white border-b-4 px-8 py-4 rounded-full text-xl font-bold text-white shadow-lg hover:shadow-xl transition-all font-serif flex items-center h-12 ml-12 lg:h-20 lg:-mx-4"
           >
