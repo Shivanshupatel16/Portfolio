@@ -21,10 +21,7 @@ import ContactSection from "./Contact";
 import Navbar from "./Navbar";
 import Loader from "./Loader";
 import MobileSidebar from "./MobileSidebar";
-
-
-
-
+import snowBg from "./assets/snow.jpg";
 
 function App() {
   const sidebarItems = [
@@ -136,7 +133,7 @@ function App() {
             <div
               className="fixed top-0 left-0 w-full h-full bg-cover bg-center -z-10"
               style={{
-                backgroundImage: `url('https://up2client.com/envato/arya-stark/html/main-file/dark-mode/layout_one/background-img-snow/assets/images/home-images/snow-img2.jpg')`,
+                backgroundImage: `url(${snowBg})`,
               }}
             >
               <ReactSnowfall snowflakeCount={300} />
