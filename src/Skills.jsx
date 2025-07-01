@@ -21,7 +21,7 @@ const SkillsSection = () => {
           {[
             {
               name: "Coding & Algorithms",
-              percentage: 92,
+              percentage: 60,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=leetcode"
@@ -32,7 +32,7 @@ const SkillsSection = () => {
             },
             {
               name: "Frontend Development",
-              percentage: 94,
+              percentage: 70,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=frontend"
@@ -43,7 +43,7 @@ const SkillsSection = () => {
             },
             {
               name: "Backend Architecture",
-              percentage: 88,
+              percentage: 72,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=backend"
@@ -54,7 +54,7 @@ const SkillsSection = () => {
             },
             {
               name: "Database Systems",
-              percentage: 85,
+              percentage: 68,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=database"
@@ -65,7 +65,7 @@ const SkillsSection = () => {
             },
             {
               name: "API Development",
-              percentage: 88,
+              percentage: 70,
               icon: <a className="w-6 h-6 ml-5" />,
             },
           ].map((skill, index) => (
@@ -105,7 +105,7 @@ const SkillsSection = () => {
           {[
             {
               name: "HTML",
-              percentage: 98,
+              percentage: 73,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=html"
@@ -116,7 +116,7 @@ const SkillsSection = () => {
             },
             {
               name: "CSS",
-              percentage: 95,
+              percentage: 75,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=css"
@@ -127,7 +127,7 @@ const SkillsSection = () => {
             },
             {
               name: "Tailwind CSS",
-              percentage: 95,
+              percentage: 75,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=tailwind"
@@ -138,7 +138,7 @@ const SkillsSection = () => {
             },
             {
               name: "JavaScript",
-              percentage: 94,
+              percentage: 68,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=javascript"
@@ -149,7 +149,7 @@ const SkillsSection = () => {
             },
             {
               name: "React",
-              percentage: 92,
+              percentage: 70,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=react"
@@ -160,7 +160,7 @@ const SkillsSection = () => {
             },
             {
               name: "Node.js",
-              percentage: 90,
+              percentage: 72,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=nodejs"
@@ -171,7 +171,7 @@ const SkillsSection = () => {
             },
             {
               name: "Postman",
-              percentage: 85,
+              percentage: 65,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=postman"
@@ -182,7 +182,7 @@ const SkillsSection = () => {
             },
             {
               name: "MongoDB",
-              percentage: 87,
+              percentage: 72,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=mongodb"
@@ -193,7 +193,7 @@ const SkillsSection = () => {
             },
             {
               name: "SQL",
-              percentage: 89,
+              percentage: 55,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=mysql"
@@ -204,7 +204,7 @@ const SkillsSection = () => {
             },
             {
               name: "Docker",
-              percentage: 85,
+              percentage: 40,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=docker"
@@ -215,7 +215,7 @@ const SkillsSection = () => {
             },
             {
               name: "Redux Toolkit",
-              percentage: 90,
+              percentage: 45,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=redux"
@@ -226,7 +226,7 @@ const SkillsSection = () => {
             },
             {
               name: "Nginx",
-              percentage: 83,
+              percentage: 35,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=nginx"
@@ -237,7 +237,7 @@ const SkillsSection = () => {
             },
             {
               name: "C/C++",
-              percentage: 86,
+              percentage: 65,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=cpp"
@@ -248,7 +248,7 @@ const SkillsSection = () => {
             },
             {
               name: "Ubuntu",
-              percentage: 91,
+              percentage: 30,
               icon: (
                 <img
                   src="https://skillicons.dev/icons?i=ubuntu"
