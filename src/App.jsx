@@ -129,7 +129,7 @@ function App() {
               },
             }}
           />
-          <div className="relative w-full min-h-screen">
+          <div className="relative w-full min-h-screen ">
             <div
               className="fixed top-0 left-0 w-full h-full bg-cover bg-center -z-10"
               style={{

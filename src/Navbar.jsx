@@ -18,10 +18,19 @@ const Navbar = ({ setMobileSidebarOpen, isMobileOpen }) => {
   return (
     <>
       <nav
-        className={`bg-[#1E1F21] text-white flex items-center justify-between px-4 md:px-8 py-2 md:py-3 h-14 md:h-20 mt-4 md:mt-7 rounded-full mx-4 md:mx-8 lg:mx-16 xl:mx-32 sticky top-0 z-50 transition-all duration-500 ease-in-out ml-10 w-full md:w-auto ${
-          showNavbar ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"
-        }`}
-      >
+  className={`bg-[#1E1F21] text-white flex items-center justify-between 
+    px-4 md:px-8 py-2 md:py-3 
+    h-14 md:h-20 
+    mt-4 md:mt-7 
+    rounded-full 
+    mx-4 md:mx-8 lg:mx-16 xl:mx-32 
+    sticky top-0 z-50 
+    transition-all duration-500 ease-in-out
+    w-full md:w-auto
+    ${showNavbar ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10"}
+  `}
+>
+
         <div className="flex items-center">
           <img
             src="/s1.jpg"
